@@ -1,14 +1,12 @@
 import {useState} from 'react'
 import './App.css'
-import Navbar from "./components//Navbar/Navbar.jsx"
+import Home from "./components/Home/Home"
 
 function App() {
 
  return (
   <div>
-   <Navbar title="roBlog" />
-   <Navbar title="GoBugy" />
-   <Navbar title="SiRobo" />
+   <Home />
   </div>
  );
 }

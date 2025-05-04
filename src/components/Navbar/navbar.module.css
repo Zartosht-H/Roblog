@@ -5,16 +5,19 @@
  padding: 0;
  background-color: #efefef;
  box-shadow: 0px 3px 3px #ddd;
+ display: flex;
+ align-content: center !important;
 }
 
 .navbar div{
  height: 50px;
  display: flex;
  align-items: center;
+ 
 }
 
 .navbar img{
- margin: 0 10px 0 0;
+ margin: 0;
  max-height: 30px;
 }
 
@@ -29,21 +32,23 @@
 
 .navbar h1{
  font-size: .75em;
- margin-left: 5px;
- font-weight: 1000;
+ margin-left: 10px !important;
  text-shadow: 0 0 2px #555;
  font-family: Monospace;
 }
 
 .navbar ul{
  display: flex;
- align-items: start;
  list-style: none;
 }
 
 .navbar ul li{
- padding: 0 5px;
- margin: 2px;
- /* background-color: yellow; */
- flex-basis: flex-end;
+ padding: 0 5px !important;
+ margin: 2px !important;
+}
+
+
+.navbar ul:last-child{
+ padding-left: 0px;
+ margin-left: 0px;
 }
