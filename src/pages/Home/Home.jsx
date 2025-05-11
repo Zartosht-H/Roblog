@@ -3,6 +3,7 @@ import axios from 'axios';
 import Navbar from "../../components/Navbar/Navbar";
 import BlogCard from "../../components/BlogCard/BlogCard";
 import style from "./home.module.css";
+import Footer from "../../components/Footer/Footer";
 
 function Home() {
 
@@ -40,6 +41,9 @@ function Home() {
                         <p>در حال بارگذاری مقالات...</p>
                     )}
                 </div>
+            </div>
+            <div>
+                <Footer />
             </div>
         </div>
     );
