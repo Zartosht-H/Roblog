@@ -1,4 +1,4 @@
-import style from "./blogCard.module.css";
+// import style from "./blogCard.module.css";
 
 
 function BlogCard(props) {
