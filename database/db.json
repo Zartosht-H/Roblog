@@ -1,70 +1,67 @@
 {
-  "blogs": {
-    "status": true,
-    "data": [
-      {
-        "id": 1,
-        "imageUrl": "../src/assets/html.svg",
-        "title": "آموزش HTML مبتدی",
-        "discription": "آموزش و شروع کار با HTML از ابتدا تا ۵۵٪",
-        "ttr": 18
-      },
-      {
-        "id": 2,
-        "imageUrl": "../src/assets/css.svg",
-        "title": "آموزش CSS مبتدی",
-        "discription": "آموزش و شروع کار با CSS از ابتدا تا ۵۵٪",
-        "ttr": 13
-      },
-      {
-        "id": 3,
-        "imageUrl": "../src/assets/js.svg",
-        "title": "آموزش Java Script مبتدی",
-        "discription": "آموزش و شروع کار با Java Script از ابتدا تا ۵۵٪",
-        "ttr": 15
-      },
-      {
-        "id": 4,
-        "imageUrl": "../src/assets/html.svg",
-        "title": "آموزش HTML پیشرفته",
-        "discription": "آموزش و شروع کار با HTML از ۵۵٪ تا ۱۰۰٪",
-        "ttr": 11
-      },
-      {
-        "id": 5,
-        "imageUrl": "../src/assets/css.svg",
-        "title": "آموزش CSS پیشرفته",
-        "discription": "آموزش و شروع کار با CSS از ۵۵٪ تا ۱۰۰٪",
-        "ttr": 9
-      },
-      {
-        "id": 6,
-        "imageUrl": "../src/assets/js.svg",
-        "title": "آموزش Java Script پیشرفته",
-        "discription": "آموزش و شروع کار با Java Script از ۵۵٪ تا ۱۰۰٪",
-        "ttr": 17
-      },
-      {
-        "id": 7,
-        "imageUrl": "../src/assets/jsx.svg",
-        "title": "آموزش ReAct",
-        "discription": "آموزش و شروع کار با ReAct از ابتدا تا ۵۵٪",
-        "ttr": 14
-      },
-      {
-        "id": 8,
-        "imageUrl": "../src/assets/git.svg",
-        "title": "آموزش Git",
-        "discription": "آموزش و شروع کار با Git از ابتدا تا ۵۵٪",
-        "ttr": 8
-      },
-      {
-        "id": 9,
-        "imageUrl": "../src/assets/jsx.svg",
-        "title": "آموزش ReAct",
-        "discription": "آموزش و شروع کار با ReAct از ۵۵٪ تا ۱۰۰٪",
-        "ttr": 10
-      }
-    ]
-  }
+  "blogs": [
+    {
+      "id": 1,
+      "imageUrl": "../src/assets/html.svg",
+      "title": "آموزش HTML مبتدی",
+      "discription": "آموزش و شروع کار با HTML از ابتدا تا ۵۵٪",
+      "ttr": 18
+    },
+    {
+      "id": 2,
+      "imageUrl": "../src/assets/css.svg",
+      "title": "آموزش CSS مبتدی",
+      "discription": "آموزش و شروع کار با CSS از ابتدا تا ۵۵٪",
+      "ttr": 13
+    },
+    {
+      "id": 3,
+      "imageUrl": "../src/assets/js.svg",
+      "title": "آموزش Java Script مبتدی",
+      "discription": "آموزش و شروع کار با Java Script از ابتدا تا ۵۵٪",
+      "ttr": 15
+    },
+    {
+      "id": 4,
+      "imageUrl": "../src/assets/html.svg",
+      "title": "آموزش HTML پیشرفته",
+      "discription": "آموزش و شروع کار با HTML از ۵۵٪ تا ۱۰۰٪",
+      "ttr": 11
+    },
+    {
+      "id": 5,
+      "imageUrl": "../src/assets/css.svg",
+      "title": "آموزش CSS پیشرفته",
+      "discription": "آموزش و شروع کار با CSS از ۵۵٪ تا ۱۰۰٪",
+      "ttr": 9
+    },
+    {
+      "id": 6,
+      "imageUrl": "../src/assets/js.svg",
+      "title": "آموزش Java Script پیشرفته",
+      "discription": "آموزش و شروع کار با Java Script از ۵۵٪ تا ۱۰۰٪",
+      "ttr": 17
+    },
+    {
+      "id": 7,
+      "imageUrl": "../src/assets/jsx.svg",
+      "title": "آموزش ReAct",
+      "discription": "آموزش و شروع کار با ReAct از ابتدا تا ۵۵٪",
+      "ttr": 14
+    },
+    {
+      "id": 8,
+      "imageUrl": "../src/assets/git.svg",
+      "title": "آموزش Git",
+      "discription": "آموزش و شروع کار با GitHub از ابتدا تا ۵۵٪",
+      "ttr": 8
+    },
+    {
+      "id": 9,
+      "imageUrl": "../src/assets/jsx.svg",
+      "title": "آموزش ReAct",
+      "discription": "آموزش و شروع کار با ReAct از ۵۵٪ تا ۱۰۰٪",
+      "ttr": 10
+    }
+  ]
 }
