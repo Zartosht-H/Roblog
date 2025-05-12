@@ -7,9 +7,9 @@ function BlogCard(props) {
       <div className="card-body">
         <h5 className="card-title">{props.blog.title}</h5>
         <p className="card-text">{props.blog.discription}</p>
-        <a href="#" className="btn btn-primary">
+        <span className="btn btn-primary">
           زمان خواندن: {props.blog.ttr} دقیقه
-        </a>
+        </span>
       </div>
     </>
   );
