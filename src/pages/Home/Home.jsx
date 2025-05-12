@@ -12,7 +12,7 @@ function Home() {
     useEffect(() => {
         axios.get('http://localhost:3000/blogs')
             .then(function (response) {
-                setBlogs(response.data.data);
+                setBlogs(response.data);
             })
             .catch(function (error) {
                 console.error("Error details:", error);
