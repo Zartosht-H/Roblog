@@ -33,11 +33,12 @@ function Home() {
           {blogs.length > 0 ? (
             blogs.map((blog, index, arr) => (
               <Link
-                to={`/blog/${blog.id}`}
+                key={blog.id}
+                to={{ pathname: `/blog/${blog.id}`, state: blog.id }}
                 className={`card ${blog.id == arr.length ? "hidden" : ""}`}
                 style={{ width: "18rem" }}
               >
-                <BlogCard key={blog.id} blog={blog} />
+                <BlogCard blog={blog} />
               </Link>
             ))
           ) : (

@@ -12,9 +12,6 @@ function Navbar(props) {
         </Link>
         <ul>
           <li>
-            <Link to="/blog/1">دسته‌بندی</Link>
-          </li>
-          <li>
             <Link to="/newblog">مقاله جدید</Link>
           </li>
           <li>
