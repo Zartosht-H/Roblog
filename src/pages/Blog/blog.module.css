@@ -21,7 +21,6 @@ li {
     max-width: 50%;
 }
 
-
 @media screen and (max-width: 768px) {
     .content img {
         margin: 0 0 15px 0;
