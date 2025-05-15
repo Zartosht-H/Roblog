@@ -25,7 +25,7 @@ function Home() {
   }, []);
 
   return (
-    <div>
+    <>
       <Navbar title="roBlog" />
       <div className="container">
         <h1>آخرین مقالات</h1>
@@ -49,7 +49,7 @@ function Home() {
       <div>
         <Footer />
       </div>
-    </div>
+    </>
   );
 }
 

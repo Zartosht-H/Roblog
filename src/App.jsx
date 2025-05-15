@@ -10,14 +10,14 @@ import NewBlog from "./pages/NewBlog/NewBlog";
 
 function App() {
   return (
-    <div>
+    <>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blog/:id" element={<Blog />} />
         <Route path="/newblog" element={<NewBlog />} />
         <Route path="/about" element={<AboutUs />} />
       </Routes>
-    </div>
+    </>
   );
 }
 
