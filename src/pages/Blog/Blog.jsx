@@ -8,13 +8,12 @@ function Blog() {
   const [blog, setBlog] = useState({});
   const blogId = useParams().id;
   useEffect(() => {
-    axios.get("http://localhost:3000/blogs/?id=" + blogId).then((response) => {
-      console.log(response.data);
+    axios.get("http://localhost:3000/blogs/?id="+blogId).then((response) => {
       setBlog(response.data[0]);
     });
   }, []);
   return (
-    <div>
+    <>
       <Navbar title="roBlog" />
       <div className="container">
         <h1>{blog.title}</h1>
@@ -28,7 +27,7 @@ function Blog() {
         <p>{blog.blogText}</p>
       </div>
       <Footer />
-    </div>
+    </>
   );
 }
 
