@@ -1,5 +1,6 @@
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
+import Loader from "../../components/Loader/Loader";
 import style from "./blog.module.css";
 import { useEffect, useState } from "react";
 import axios from "axios";
@@ -48,9 +49,12 @@ function Blog() {
             </p>
           </>
         ) : isLoading == false ? (
+          <>
+              <Loader />
           <p className="alert alert-info" role="alert">
             مقاله در حال بارگذاری است ...
           </p>
+          </>
         ) : (
           <p className="alert alert-danger" role="alert">
             مشکل در بارگذاری مقاله...

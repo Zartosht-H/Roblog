@@ -5,6 +5,7 @@ import BlogCard from "../../components/BlogCard/BlogCard";
 import style from "./home.module.css";
 import Footer from "../../components/Footer/Footer";
 import { Link } from "react-router-dom";
+import Loader from "../../components/Loader/Loader";
 
 function Home() {
   const [blogs, setBlogs] = useState([]);
@@ -42,7 +43,10 @@ function Home() {
               </Link>
             ))
           ) : (
-            <p>در حال بارگذاری مقالات...</p>
+            <>
+              <Loader />
+              <p>در حال بارگذاری مقالات...</p>
+            </>
           )}
         </div>
       </div>
