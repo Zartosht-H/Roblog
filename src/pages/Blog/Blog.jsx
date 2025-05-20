@@ -13,6 +13,7 @@ function Blog() {
   const tooltipList = [...tooltipTriggerList].map(
     (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
   );
+  
   const [blog, setBlog] = useState({});
   const blogId = useParams().id;
   let url = "http://localhost:3000/blogs/?id=" + blogId;
@@ -29,7 +30,7 @@ function Blog() {
         setErrorMessage(error.message);
         setIsLoaduing(undefined);
       });
-  }, []);
+  }, [url]);
   return (
     <>
       <Navbar title="roBlog" />
