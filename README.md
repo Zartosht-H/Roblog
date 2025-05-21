@@ -14,7 +14,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
      `npm install`  
      `npx json-server --watch database/db.json --port 3000`  
      `npm run dev`  
-  4. open your browser and go to [localhost:5137](localhost:5137)
+  4. open your browser and go to [localhost:5137](http://localhost:5137)
   5. Enjoy it...!
 
 Currently, two official plugins are available:
