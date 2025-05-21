@@ -1,6 +1,21 @@
 # React + Vite
+# **Roblog** is a React + Vite project
+
+## This is a sample that get data from local json-server and show them in a nice and freindly user interface
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+## To setup and run the project folow these steps:
+  1. install [NodeJS](https://nodejs.org/dist/v22.16.0/node-v22.16.0-x64.msi)
+  2. start terminal
+  3. run this commands:
+     `git clone https://github.com/Zartosht-H/Roblog.git`
+     `cd Roblog`
+     `npm install`
+     `npx json-server --watch database/db.json --port 3000`
+     `npm run dev`
+  4. open your browser and go to [localhost:5137](localhost:5137)
+  5. Enjoy it...!
 
 Currently, two official plugins are available:
 
