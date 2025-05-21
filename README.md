@@ -8,7 +8,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 ## To setup and run the project folow these steps:
   1. install [NodeJS](https://nodejs.org/dist/v22.16.0/node-v22.16.0-x64.msi)
   2. start terminal
-  3. run this commands:
+  3. run these commands:  
      `git clone https://github.com/Zartosht-H/Roblog.git`  
      `cd Roblog`  
      `npm install`  
