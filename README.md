@@ -3,7 +3,7 @@
 ## This is a sample that get data from local json-server and show them in a nice and freindly user interface
 ### This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## To setup and run the project folow these steps:
+## To setup and run the project follow these steps:
   1. install [NodeJS](https://nodejs.org/dist/v22.16.0/node-v22.16.0-x64.msi)
   2. start terminal
   3. run these commands:  
